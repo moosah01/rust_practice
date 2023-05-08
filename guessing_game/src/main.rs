@@ -4,7 +4,7 @@ use std::cmp::Ordering; //use brings Ordering enum into scope
 use colored::*; //use brings colored library into scope
 
 fn main() {
-    println!("Hello Students! Welcome to the guess the number game!");
+    println!("Hello Students! Welcome to Moosa's guess the number game!");
     println!("Please input your guess.");
 
     let secret_number = rand::thread_rng().gen_range(1, 101); //gen_range is an inclusive range
