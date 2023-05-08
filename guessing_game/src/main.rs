@@ -17,7 +17,7 @@ fn main() {
             .read_line(&mut guess) //read_line takes whatever the user types into standard input and places that into a string
             .expect("Failed to read line");
 
-        println!("You guessed: {}", guess);
+        print!("You guessed: {}", guess);
         let guess: u32 = match guess.trim().parse(){
             Ok(num) => num,
             Err(_) => {
